@@ -1,0 +1,4 @@
+services:
+  laravel.test:
+    volumes:
+      - /home/jorge/laravel_proyects/DevHorizon/.docker/php/conf.d/disable-jit.ini:/etc/php/8.4/cli/conf.d/disable-jit.ini
